@@ -1,0 +1,13 @@
+    
+# SocketTCPDemo
+TCP 通信的 Socket 实现跨进程聊天
+
+注意事项：
+   1>.权限
+       <uses-permission android:name="android.permission.INTERNET" />
+       <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+       
+   2>.清单注册
+       <service android:name=".service.SocketServerService"/>
+   
+   3>. 客户端服务端逻辑如Demo.
